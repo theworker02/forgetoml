@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/forgetoml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Forge HTML/Markdown toml fragments safely for docs pipelines.",
+  "bin": {
+    "forgetoml": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/forgetoml.git"
+  },
+  "homepage": "https://theworker02.github.io/forgetoml/",
+  "keywords": [
+    "forge",
+    "toml",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
